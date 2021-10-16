@@ -1,0 +1,48 @@
+{
+  "name": "simplon_prod",
+  "version": "1.0.0",
+  "description": "Challenge JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreBerthelemy/challenge-js.git"
+  },
+  "author": "Pierre Berthélemy https://noscript.fr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierreBerthelemy/challenge-js/issues"
+  },
+  "homepage": "https://github.com/PierreBerthelemy/challenge-js#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "bundler": "^0.8.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "parcel": "^1.12.4",
+    "sass": "^1.19.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "styled-components": "^4.2.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
